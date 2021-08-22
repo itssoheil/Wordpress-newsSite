@@ -1,0 +1,669 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 05:58:36
+* VERSION: 1.3.38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.32                                |7.2.14
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-11-15 12:20:59
+WP VERSION__________: 5.5.3
+DUP VERSION_________: 1.3.38
+DB__________________: 10.3.23
+DB TABLES___________: 48
+DB ROWS_____________: 4,309
+DB FILE SIZE________: 3.4MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.2.14 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.37 (Win64) PHP/7.2.14
+DOC ROOT____________: "C:/wamp64/www/news-site"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/news-site/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "ziparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/wamp64/www/news-site/20200613_d982d8a7d984d8a8d988d8b1d8afd9_[HASH]_20201115122059_archive.zip"
+SIZE________________: 74.35MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+
+
+START ZIP FILE EXTRACTION STANDARD >>> 
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "C:/wamp64/www/news-site/20200613_d982d8a7d984d8a8d988d8b1d8afd9_[HASH]_20201115122059_archive.zip"
+SIZE________________: 74.35MBFile timestamp set to Current: 2021-08-20 05:59:03
+<<< ZipArchive Unzip Complete: true
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 05:59:03 - RUNTIME: 26.5599 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 06:02:24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.24 -- Build Server: 10.3.23
+FILE SIZE:	dup-database__[HASH].sql (3.4MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	STRICT_ALL_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER
+NEW SQL FILE:	[C:/wamp64/www/news-site/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.24] is less than the build version [10.3.23].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+[PHP ERR][WARN] MSG:count(): Parameter must be an array or an object that implements Countable [CODE:2|FILE:C:\wamp64\www\news-site\dup-installer\ctrls\ctrl.s2.dbinstall.php|LINE:392]
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	4360
+
+wp_actionscheduler_actions: (11)
+wp_actionscheduler_claims: (0)
+wp_actionscheduler_groups: (3)
+wp_actionscheduler_logs: (31)
+wp_commentmeta: (16)
+wp_comments: (34)
+wp_duplicator_packages: (0)
+wp_layerslider: (1)
+wp_layerslider_revisions: (0)
+wp_links: (0)
+wp_litespeed_img_optm: (0)
+wp_options: (740)
+wp_postmeta: (2616)
+wp_posts: (362)
+wp_term_relationships: (145)
+wp_term_taxonomy: (50)
+wp_termmeta: (35)
+wp_terms: (50)
+wp_usermeta: (68)
+wp_users: (1)
+wp_wc_admin_note_actions: (12)
+wp_wc_admin_notes: (11)
+wp_wc_category_lookup: (6)
+wp_wc_customer_lookup: (0)
+wp_wc_download_log: (0)
+wp_wc_order_coupon_lookup: (0)
+wp_wc_order_product_lookup: (0)
+wp_wc_order_stats: (0)
+wp_wc_order_tax_lookup: (0)
+wp_wc_product_meta_lookup: (10)
+wp_wc_reserved_stock: (0)
+wp_wc_tax_rate_classes: (4)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_ir: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (9)
+wp_woocommerce_order_items: (1)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (1)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '92' cache/transient rows
+
+INSERT DATA RUNTIME: 2.2898 sec.
+STEP-2 COMPLETE @ 06:02:27 - RUNTIME: 2.3103 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 06:03:12
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "سهیل نیوز"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/demowpn1/public_html/d1/enfold"
+path_new______________: "C:/wamp64/www/news-site"
+siteurl_______________: "http://localhost/news-site"
+url_old_______________: "http://d1.demo-wpnovin.com/enfold"
+url_new_______________: "http://localhost/news-site"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: "thesoheilrahmani@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: true
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_actionscheduler_actions"______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_actionscheduler_claims"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_actionscheduler_groups"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_actionscheduler_logs"_________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_layerslider"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_layerslider_revisions"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_litespeed_img_optm"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   740][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2616][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   362][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   145][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    50][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    35][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    50][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    68][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_wc_admin_note_actions"________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_wc_admin_notes"_______________________________[ROWS:    11][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_wc_category_lookup"___________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_wc_customer_lookup"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_coupon_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_product_lookup"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_stats"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_order_tax_lookup"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_wc_reserved_stock"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_ir"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     9][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/demowpn1/public_html/d1/enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  2:"\/home\/demowpn1\/public_html\/d1\/enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  3:"%2Fhome%2Fdemowpn1%2Fpublic_html%2Fd1%2Fenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  4:"\home\demowpn1\public_html\d1\enfold" ============> "C:/wamp64/www/news-site"
+	SEARCH  5:"\\home\\demowpn1\\public_html\\d1\\enfold" =======> "C:\/wamp64\/www\/news-site"
+	SEARCH  6:"%5Chome%5Cdemowpn1%5Cpublic_html%5Cd1%5Cenfold" ==> "C%3A%2Fwamp64%2Fwww%2Fnews-site"
+	SEARCH  7:"//d1.demo-wpnovin.com/enfold" ====================> "//localhost/news-site"
+	SEARCH  8:"\/\/d1.demo-wpnovin.com\/enfold" =================> "\/\/localhost\/news-site"
+	SEARCH  9:"%2F%2Fd1.demo-wpnovin.com%2Fenfold" ==============> "%2F%2Flocalhost%2Fnews-site"
+	SEARCH 10:"https://localhost/news-site" =====================> "http://localhost/news-site"
+	SEARCH 11:"https:\/\/localhost\/news-site" ==================> "http:\/\/localhost\/news-site"
+	SEARCH 12:"https%3A%2F%2Flocalhost%2Fnews-site" =============> "http%3A%2F%2Flocalhost%2Fnews-site"
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:48 	|	 Rows:4217 	|	 Cells:24479 
+UPDATED:	Tables:6 	|	 Rows:292 	|	 Cells:293 
+ERRORS:		0 
+RUNTIME:	0.821600 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'soheil_news_site' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""wordpress_news""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE WP_CACHE true
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:03:13 - RUNTIME: 0.9501 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] No general notices
+	SECTIONS: general
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+====================================
